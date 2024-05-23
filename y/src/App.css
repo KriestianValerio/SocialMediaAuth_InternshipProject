@@ -1,0 +1,186 @@
+body {
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  color: black;
+
+}
+
+.twitterbox {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(196, 236, 236);
+  padding: 200px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.box {
+  background-color: #c9f7ed;
+  padding: 20px;
+  text-align: center;
+  border-radius: 3px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titlebox {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(20, 167, 167);
+  padding-top: 30px;
+}
+
+.navbar {
+  background-color: rgb(15, 30, 160);
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.725);
+  padding: 20px;
+  font-size: 20px;
+}
+
+.navbar li a:hover {
+  background-color: #f8aeff;
+  color: black;
+}
+
+.content {
+  margin-top: 60px; /* Adjust content margin to account for the navbar's height */
+}
+
+.tweetbox {
+  text-align: center;
+  border-radius: 50%;
+
+}
+
+.textarea {
+  background-color: lightblue;
+  border-radius: 5px;
+  border-color: blue;
+  border-width: 5px;
+  font-size: 20px;
+  width: 1500px;
+}
+
+
+.submitbutton {
+  background-color: aqua;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.submitbutton:hover {
+  background-color: gray;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+  
+.getlikebutton {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  background-color: #f8aeff;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  border-radius: 10px;
+  margin-left: 100px;
+
+}
+
+.logoutbutton {
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  
+}
+
+.logoutbutton:hover {
+  background-color: gray;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.logintwitter {
+  text-align: center;
+  display: flex;
+  background-color: #f8aeff;
+  justify-content: center;
+  font-size: 20px;
+}
+
+#twittertitle {
+  margin-top: 90px;
+}
+
+#twitterimage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 300px;
+  margin-left: 400px;
+
+}
+
+.accountoption {
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+
+}
